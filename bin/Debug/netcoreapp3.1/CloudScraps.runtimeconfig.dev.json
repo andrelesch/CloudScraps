@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Elrisa\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Elrisa\\.nuget\\packages"
+    ]
+  }
+}

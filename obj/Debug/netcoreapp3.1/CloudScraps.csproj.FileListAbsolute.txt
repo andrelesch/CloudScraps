@@ -1,0 +1,21 @@
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\CloudScraps - Web Deploy\profile.arm.json
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\bin\Debug\netcoreapp3.1\CloudScraps.exe
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\bin\Debug\netcoreapp3.1\CloudScraps.deps.json
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\bin\Debug\netcoreapp3.1\CloudScraps.runtimeconfig.json
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\bin\Debug\netcoreapp3.1\CloudScraps.runtimeconfig.dev.json
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\bin\Debug\netcoreapp3.1\CloudScraps.dll
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\bin\Debug\netcoreapp3.1\CloudScraps.pdb
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\obj\Debug\netcoreapp3.1\CloudScraps.csprojAssemblyReference.cache
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\obj\Debug\netcoreapp3.1\CloudScraps.AssemblyInfoInputs.cache
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\obj\Debug\netcoreapp3.1\CloudScraps.AssemblyInfo.cs
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\obj\Debug\netcoreapp3.1\CloudScraps.csproj.CoreCompileInputs.cache
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\obj\Debug\netcoreapp3.1\CloudScraps.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\obj\Debug\netcoreapp3.1\CloudScraps.RazorTargetAssemblyInfo.cache
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\obj\Debug\netcoreapp3.1\staticwebassets\CloudScraps.StaticWebAssets.Manifest.cache
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\obj\Debug\netcoreapp3.1\staticwebassets\CloudScraps.StaticWebAssets.xml
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\obj\Debug\netcoreapp3.1\CloudScraps.dll
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\obj\Debug\netcoreapp3.1\CloudScraps.pdb
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\obj\Debug\netcoreapp3.1\CloudScraps.genruntimeconfig.cache
