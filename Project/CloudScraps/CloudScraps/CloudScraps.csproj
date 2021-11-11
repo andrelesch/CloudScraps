@@ -68,8 +68,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="default.aspx" />
-    <Content Include="Pages\LandingPage.aspx" />
-    <Content Include="Pages\Profile Page.aspx" />
+    <Content Include="LandingPage.aspx" />
+    <Content Include="Profile Page.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -80,17 +80,18 @@
     <Compile Include="default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\LandingPage.aspx.cs">
+    <Compile Include="LandingPage.aspx.cs">
       <DependentUpon>LandingPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\LandingPage.aspx.designer.cs">
+    <Compile Include="LandingPage.aspx.designer.cs">
       <DependentUpon>LandingPage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Profile Page.aspx.cs">
+    <Compile Include="Profile Page.aspx.cs">
       <DependentUpon>Profile Page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\Profile Page.aspx.designer.cs">
+    <Compile Include="Profile Page.aspx.designer.cs">
       <DependentUpon>Profile Page.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
