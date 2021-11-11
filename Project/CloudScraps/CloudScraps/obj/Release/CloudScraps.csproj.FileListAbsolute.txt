@@ -56,3 +56,4 @@ C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\Clo
 C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\obj\Release\CloudScraps.csproj.CopyComplete
 C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\obj\Release\CloudScraps.dll
 C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\obj\Release\CloudScraps.pdb
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\obj\Release\CloudScraps.csprojAssemblyReference.cache
