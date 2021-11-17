@@ -68,6 +68,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="default.aspx" />
+    <Content Include="Images\Plain Orange copy.png" />
+    <Content Include="Images\Plain Orange.PNG" />
+    <Content Include="Images\Straight Orange copy.png" />
+    <Content Include="Images\Straight Orange.PNG" />
     <Content Include="LandingPage.aspx" />
     <Content Include="Profile Page.aspx" />
     <Content Include="Web.config" />
