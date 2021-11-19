@@ -11,7 +11,8 @@ namespace CloudScraps
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-                Response.Redirect("default.aspx"); //use this to redirect
+                
+            //Response.Redirect("default.aspx"); //use this to redirect
         }
     }
 }
