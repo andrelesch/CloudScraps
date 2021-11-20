@@ -24,24 +24,6 @@ namespace CloudScraps
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Image1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image1;
-
-        /// <summary>
-        /// Label1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
-
-        /// <summary>
         /// Logo control.
         /// </summary>
         /// <remarks>
@@ -51,13 +33,13 @@ namespace CloudScraps
         protected global::System.Web.UI.WebControls.Image Logo;
 
         /// <summary>
-        /// Label2 control.
+        /// LBLDetails control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label2;
+        protected global::System.Web.UI.WebControls.Label LBLDetails;
 
         /// <summary>
         /// LBLUsername control.
@@ -78,6 +60,15 @@ namespace CloudScraps
         protected global::System.Web.UI.WebControls.TextBox TXTUsername;
 
         /// <summary>
+        /// LBLUserLoginVal control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LBLUserLoginVal;
+
+        /// <summary>
         /// LBLPassword control.
         /// </summary>
         /// <remarks>
@@ -94,6 +85,15 @@ namespace CloudScraps
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TXTPassword;
+
+        /// <summary>
+        /// LBLUserPassVal control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LBLUserPassVal;
 
         /// <summary>
         /// BTNLogin control.
@@ -123,13 +123,22 @@ namespace CloudScraps
         protected global::System.Web.UI.WebControls.Panel SignUp;
 
         /// <summary>
-        /// Label3 control.
+        /// Panel1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label3;
+        protected global::System.Web.UI.WebControls.Panel Panel1;
+
+        /// <summary>
+        /// LBLSignUp control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LBLSignUp;
 
         /// <summary>
         /// LBLUser control.
@@ -141,13 +150,22 @@ namespace CloudScraps
         protected global::System.Web.UI.WebControls.Label LBLUser;
 
         /// <summary>
-        /// TXTUSER control.
+        /// TXTUser control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TXTUSER;
+        protected global::System.Web.UI.WebControls.TextBox TXTUser;
+
+        /// <summary>
+        /// UsernameExistanceValidator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CustomValidator UsernameExistanceValidator;
 
         /// <summary>
         /// LBLUser0 control.
@@ -159,13 +177,22 @@ namespace CloudScraps
         protected global::System.Web.UI.WebControls.Label LBLUser0;
 
         /// <summary>
-        /// TXTEMAIL control.
+        /// TXTEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TXTEMAIL;
+        protected global::System.Web.UI.WebControls.TextBox TXTEmail;
+
+        /// <summary>
+        /// ValidEmailValidator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator ValidEmailValidator;
 
         /// <summary>
         /// LBLUser1 control.
@@ -177,13 +204,13 @@ namespace CloudScraps
         protected global::System.Web.UI.WebControls.Label LBLUser1;
 
         /// <summary>
-        /// TXTCONTACT control.
+        /// TXTContact control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TXTCONTACT;
+        protected global::System.Web.UI.WebControls.TextBox TXTContact;
 
         /// <summary>
         /// LBLUser2 control.
@@ -195,13 +222,22 @@ namespace CloudScraps
         protected global::System.Web.UI.WebControls.Label LBLUser2;
 
         /// <summary>
-        /// TXTFIRST control.
+        /// TXTFirst control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TXTFIRST;
+        protected global::System.Web.UI.WebControls.TextBox TXTFirst;
+
+        /// <summary>
+        /// FirstnameRequiredValidator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator FirstnameRequiredValidator;
 
         /// <summary>
         /// LBLUser3 control.
@@ -213,13 +249,22 @@ namespace CloudScraps
         protected global::System.Web.UI.WebControls.Label LBLUser3;
 
         /// <summary>
-        /// TXTLAST control.
+        /// TXTLast control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TXTLAST;
+        protected global::System.Web.UI.WebControls.TextBox TXTLast;
+
+        /// <summary>
+        /// LastnameRequiredValidator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator LastnameRequiredValidator;
 
         /// <summary>
         /// LBLUser4 control.
@@ -231,13 +276,22 @@ namespace CloudScraps
         protected global::System.Web.UI.WebControls.Label LBLUser4;
 
         /// <summary>
-        /// TXTPASSWORD1 control.
+        /// TXTPassword1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TXTPASSWORD1;
+        protected global::System.Web.UI.WebControls.TextBox TXTPassword1;
+
+        /// <summary>
+        /// LBLPassValidate control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LBLPassValidate;
 
         /// <summary>
         /// LBLUser5 control.
@@ -249,21 +303,48 @@ namespace CloudScraps
         protected global::System.Web.UI.WebControls.Label LBLUser5;
 
         /// <summary>
-        /// TXTPASSWORD2 control.
+        /// TXTPassword2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TXTPASSWORD2;
+        protected global::System.Web.UI.WebControls.TextBox TXTPassword2;
 
         /// <summary>
-        /// Button1 control.
+        /// Panel3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.Panel Panel3;
+
+        /// <summary>
+        /// LBTNBack control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LBTNBack;
+
+        /// <summary>
+        /// Panel2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel Panel2;
+
+        /// <summary>
+        /// BTNSubmit control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button BTNSubmit;
     }
 }

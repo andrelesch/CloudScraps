@@ -57,7 +57,7 @@ namespace CloudScraps
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LBLProfile;
+        protected global::System.Web.UI.WebControls.LinkButton LBLProfile;
 
         /// <summary>
         /// LBLUpload control.
@@ -66,7 +66,7 @@ namespace CloudScraps
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LBLUpload;
+        protected global::System.Web.UI.WebControls.LinkButton LBLUpload;
 
         /// <summary>
         /// LBLSignOut control.
@@ -75,7 +75,7 @@ namespace CloudScraps
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LBLSignOut;
+        protected global::System.Web.UI.WebControls.LinkButton LBLSignOut;
 
         /// <summary>
         /// LBLShred control.
