@@ -23,11 +23,11 @@
             <asp:Label ID="LBLUsername" runat="server" Font-Bold="True" Font-Size="15pt" ForeColor="Gray" Text="@username"></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;
             <br />
-            <asp:Label ID="LBLProfile" runat="server" ForeColor="Gray" Text="Personal Profile"></asp:Label>
+            <asp:LinkButton ID="LBLProfile" runat="server" ForeColor="Gray" OnClick="LBLProfile_Click">Profile Page</asp:LinkButton>
             <br />
-            <asp:Label ID="LBLUpload" runat="server" ForeColor="Gray" Text="Upload Image"></asp:Label>
+            <asp:LinkButton ID="LBLUpload" runat="server" ForeColor="Gray">Upload Images</asp:LinkButton>
             <br />
-            <asp:Label ID="LBLSignOut" runat="server" ForeColor="Gray" Text="Sign Out"></asp:Label>
+            <asp:LinkButton ID="LBLSignOut" runat="server" ForeColor="Gray" OnClick="LBLSignOut_Click">Sign Out</asp:LinkButton>
             <br />
             <br />
             <asp:Label ID="LBLShred" runat="server" Font-Bold="True" Font-Size="20pt" Font-Underline="True" ForeColor="Gray" Text="Shared With Me"></asp:Label>
