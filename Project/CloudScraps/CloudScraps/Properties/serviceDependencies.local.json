@@ -11,6 +11,15 @@
       "type": "mssql.azure",
       "connectionId": "CloudScrap",
       "secretStore": "AzureKeyVault"
+    },
+    "secrets2": {
+      "type": "secrets.user"
+    },
+    "storage1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/cloudscrapsstorage",
+      "type": "storage.azure",
+      "connectionId": "cloudscrapsstorage",
+      "secretStore": "LocalSecretsFile"
     }
   }
 }
