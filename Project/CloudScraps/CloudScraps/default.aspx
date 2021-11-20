@@ -24,6 +24,8 @@
         <div class="auto-style3">
     <p style="font-family:add font; font-size:80px;font-style:normal;color:white" class="auto-style2">
     
+        &nbsp;
+    
         <asp:Image ID="Image1" runat="server" Height="80px" ImageUrl="~/Images/Plain Orange copy.png" Width="124px" />
 &nbsp;<asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Italic="False" Font-Size="40pt" Font-Underline="True" Text="CloudScraps"></asp:Label>
         
