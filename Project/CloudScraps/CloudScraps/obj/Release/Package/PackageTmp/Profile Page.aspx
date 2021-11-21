@@ -7,34 +7,46 @@
     <title></title>
     <style type="text/css">
         .auto-style1 {
-            margin-left: 480px;
+            margin-left: 350px;
         }
-        .auto-style2 {
-            margin-top: 0px;
-        }
-    </style>
+        </style>
 </head>
 <body style="background-color:#e4ecf0">
     <form id="form1" runat="server">
         <div class="auto-style1">
     
-        <asp:Image ID="Image1" runat="server" Height="80px" ImageUrl="~/Images/Plain Orange copy.png" Width="124px" />
-&nbsp; <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Italic="False" Font-Size="40pt" Font-Underline="True" Text="CloudScraps" ForeColor="White"></asp:Label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Image ID="Image1" runat="server" Height="174px" ImageUrl="~/Images/Straight Orange copy.png" Width="424px" />
+&nbsp; 
         
         &nbsp;&nbsp;&nbsp;
-            <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <br />
             <asp:Image ID="Image2" runat="server" BackColor="#CCCCCC" BorderColor="Gray" BorderStyle="Solid" Height="120px" Width="120px" />
 &nbsp;&nbsp;&nbsp;
             <asp:Label ID="LBLUsername" runat="server" Font-Size="20pt" Font-Underline="True" ForeColor="Gray" Height="110px" Text="@username"></asp:Label>
+            <asp:Panel ID="Panel1" runat="server">
+                <asp:Label ID="LBLName" runat="server" Font-Bold="True" Font-Size="15pt" ForeColor="Gray" Text="First Name"></asp:Label>
+                &nbsp;
+                <asp:Label ID="LBLSurname" runat="server" Font-Bold="True" Font-Size="15pt" ForeColor="Gray" Text="Last Name"></asp:Label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:DropDownList ID="DDUploadMenu" runat="server" AutoPostBack="True" BackColor="#FFBE59" Font-Bold="True" Font-Size="12pt" ForeColor="White" Width="150px">
+                    <asp:ListItem Selected="True">Upload</asp:ListItem>
+                    <asp:ListItem>Edit</asp:ListItem>
+                    <asp:ListItem>Delete</asp:ListItem>
+                </asp:DropDownList>
+                <asp:DropDownList ID="DDAlbumsManage" runat="server" AutoPostBack="True" BackColor="#FFBE59" Font-Bold="True" Font-Size="12pt" ForeColor="White" Width="150px">
+                    <asp:ListItem Selected="True">Album</asp:ListItem>
+                    <asp:ListItem>Edit</asp:ListItem>
+                    <asp:ListItem>Delete</asp:ListItem>
+                </asp:DropDownList>
+                <asp:DropDownList ID="DDAccountSettings" runat="server" AutoPostBack="True" BackColor="#FFBE59" Font-Bold="True" Font-Size="12pt" ForeColor="White" Width="150px">
+                    <asp:ListItem>Details</asp:ListItem>
+                    <asp:ListItem>Update Details</asp:ListItem>
+                    <asp:ListItem>Sign Out</asp:ListItem>
+                    <asp:ListItem>Delete Account</asp:ListItem>
+                </asp:DropDownList>
+            </asp:Panel>
 &nbsp;&nbsp;&nbsp;
-            <br />
-            <asp:Label ID="LBLName" runat="server" Font-Bold="True" Font-Size="15pt" ForeColor="Gray" Text="First Name"></asp:Label>
-&nbsp;&nbsp;&nbsp;
-            <asp:Label ID="LBLSurname" runat="server" Font-Bold="True" Font-Size="15pt" ForeColor="Gray" Text="Last Name"></asp:Label>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Button ID="BTNEdit" runat="server" BackColor="Gray" CssClass="auto-style2" Font-Bold="True" Font-Italic="False" Font-Size="12pt" ForeColor="White" Height="42px" Text="Edit Profile" Width="251px" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <br />
             <br />
             <asp:Image ID="IMGA" runat="server" BackColor="#CCCCCC" BorderColor="Gray" BorderStyle="Solid" Height="160px" Width="160px" />

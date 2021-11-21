@@ -12,14 +12,11 @@ namespace CloudScraps
         protected void Page_Load(object sender, EventArgs e)
         {
             LBLUsername.Text = Session["ActiveUser"] + "";
-
         }
 
         protected void LBLSignOut_Click(object sender, EventArgs e)
         {
             Response.Redirect("default.aspx");
-            
-
         }
 
         protected void LBLProfile_Click(object sender, EventArgs e)
