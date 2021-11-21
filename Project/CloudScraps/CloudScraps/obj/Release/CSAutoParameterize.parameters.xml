@@ -1,2 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<parameters />
+<parameters>
+  <parameter name="cloudscrapsstorage-Web.config Connection String" description="cloudscrapsstorage Connection String used in web.config by the application to access the database." defaultValue="[PlaceHolder for connection: ]" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="\\\\Mac\\iCloud\\Work\\B\.Sc\ IT\\2021\\2de\ Semester\\CMPG323\ -\ Developments\\Project\ 2\\CloudScraps\\Project\\CloudScraps\\CloudScraps\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='cloudscrapsstorage']/@connectionString" />
+  </parameter>
+</parameters>
