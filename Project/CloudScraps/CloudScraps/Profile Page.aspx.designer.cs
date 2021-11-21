@@ -33,15 +33,6 @@ namespace CloudScraps.Pages
         protected global::System.Web.UI.WebControls.Image Image1;
 
         /// <summary>
-        /// Label1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
-
-        /// <summary>
         /// Image2 control.
         /// </summary>
         /// <remarks>
@@ -58,6 +49,15 @@ namespace CloudScraps.Pages
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label LBLUsername;
+
+        /// <summary>
+        /// Panel1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel Panel1;
 
         /// <summary>
         /// LBLName control.
@@ -78,13 +78,31 @@ namespace CloudScraps.Pages
         protected global::System.Web.UI.WebControls.Label LBLSurname;
 
         /// <summary>
-        /// BTNEdit control.
+        /// DDUploadMenu control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BTNEdit;
+        protected global::System.Web.UI.WebControls.DropDownList DDUploadMenu;
+
+        /// <summary>
+        /// DDAlbumsManage control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList DDAlbumsManage;
+
+        /// <summary>
+        /// DDAccountSettings control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList DDAccountSettings;
 
         /// <summary>
         /// IMGA control.
