@@ -26,5 +26,10 @@ namespace CloudScraps
         {
             Response.Redirect("Profile Page.aspx");
         }
+
+        protected void LBLUpload_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
