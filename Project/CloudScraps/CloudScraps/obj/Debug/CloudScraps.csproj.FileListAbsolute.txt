@@ -245,3 +245,36 @@ C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\Clo
 \\Mac\iCloud\Work\B.Sc IT\2021\2de Semester\CMPG323 - Developments\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\System.Text.Json.xml
 \\Mac\iCloud\Work\B.Sc IT\2021\2de Semester\CMPG323 - Developments\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\System.Threading.Tasks.Extensions.xml
 \\Mac\iCloud\Work\B.Sc IT\2021\2de Semester\CMPG323 - Developments\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\System.ValueTuple.xml
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Azure.Identity.dll
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Azure.Storage.Blobs.dll
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Azure.Storage.Common.dll
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Azure.Storage.Files.Shares.dll
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Azure.Storage.Queues.dll
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.dll
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Extensions.Azure.dll
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Extensions.Configuration.dll
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Extensions.Options.dll
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Identity.Client.dll
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Azure.Identity.xml
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Azure.Storage.Blobs.xml
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Azure.Storage.Common.xml
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Azure.Storage.Files.Shares.xml
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Azure.Storage.Queues.xml
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Configuration.ConfigurationBuilders.Azure.xml
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Configuration.ConfigurationBuilders.Base.xml
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.xml
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Extensions.Azure.xml
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Extensions.Configuration.xml
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Extensions.Options.xml
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Identity.Client.xml

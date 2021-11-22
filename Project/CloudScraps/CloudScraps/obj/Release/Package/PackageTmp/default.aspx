@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="CloudScraps._default" %>
+﻿ <%@ Page Language="C#" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="CloudScraps._default" %>
 
 <!DOCTYPE html>
 
@@ -23,9 +23,6 @@
         .auto-style5 {
             margin-left: 8px;
         }
-        .auto-style6 {
-            
-        }
         .auto-style7 {
             width: 782px;
             height: 334px;
@@ -44,14 +41,11 @@
         <div class="auto-style3">
     <p style="font-family:add font; font-size:80px;font-style:normal;color:white" class="auto-style2">
     
-        &nbsp;
-    
-            <asp:Image ID="Logo" runat="server" Height="162px" ImageUrl="~/Images/Straight Orange copy.png" Width="432px" />
+            <asp:Image ID="Logo" runat="server" Height="174px" ImageUrl="~/Images/Straight Orange copy.png" Width="487px" ImageAlign="Middle" />
         
 </p>
         <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Label ID="LBLDetails" runat="server" ForeColor="#999999" Text="Please enter login details below!"></asp:Label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Label ID="LBLDetails" runat="server" ForeColor="#999999" Text="Please enter login details below!"></asp:Label>
         <br />
         <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -68,10 +62,10 @@
         &nbsp;<asp:Label ID="LBLUserPassVal" runat="server" ForeColor="Maroon" Width="140px"></asp:Label>
         <br />
         <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Button ID="BTNLogin" runat="server" BackColor="#E69F3C" Font-Bold="True" ForeColor="White" Text="Login" Width="144px" OnClick="BTNLogin_Click" />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Button ID="BTNSignUp" runat="server" BackColor="#E69F3C" Font-Bold="True" ForeColor="White" Text="Sign Up" Width="144px" OnClick="BTNSignUp_Click" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="BTNLogin" runat="server" BackColor="#E69F3C" Font-Bold="True" ForeColor="White" Text="Login" Width="130px" OnClick="BTNLogin_Click" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="BTNSignUp" runat="server" BackColor="#E69F3C" Font-Bold="True" ForeColor="White" Text="Sign Up" Width="130px" OnClick="BTNSignUp_Click" />
             <br />
         </div>
         <div class="auto-style2">
@@ -79,8 +73,10 @@
             <div class="auto-style7">
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <br />
-                <asp:Panel ID="Panel1" runat="server" BackColor="#E4ECF0" Height="29px">
+                <asp:Panel ID="Panel1" runat="server" BackColor="#E4ECF0" Height="29px" style="text-align: left">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <asp:Label ID="LBLSignUp" runat="server" Font-Bold="True" Font-Underline="True" ForeColor="Gray" Text="PLEASE FILL IN ALL FIELDS BELOW:"></asp:Label>
+                   
                 </asp:Panel>
                 <div class="auto-style8">
                     <div class="auto-style8">
@@ -118,7 +114,7 @@
                         <br />
                     </div>
                     <asp:Panel ID="Panel2" runat="server">
-                        <asp:Button ID="BTNSubmit" runat="server" BackColor="#E69F3C" CssClass="auto-style6" Font-Bold="True" ForeColor="White" Height="44px" OnClick="BTNSubmit_Click" Text="SUBMIT" Width="665px" />
+                        <asp:Button ID="BTNSubmit" runat="server" BackColor="#E69F3C" Font-Bold="True" ForeColor="White" Height="31px" OnClick="BTNSubmit_Click" Text="SUBMIT" Width="665px" />
                     </asp:Panel>
                 </div>
             </div>
