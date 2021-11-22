@@ -2,7 +2,7 @@
   "dependencies": {
     "storage1": {
       "restored": true,
-      "restoreTime": "2021-11-21T13:26:01.3359498Z"
+      "restoreTime": "2021-11-21T20:27:37.1201229Z"
     },
     "secrets1": {
       "restored": true,
@@ -18,14 +18,6 @@
     }
   },
   "parameters": {
-    "storage1.resourceGroupName": {
-      "Type": "resourceGroup",
-      "Value": "DefaultResourceGroup-JNB"
-    },
-    "storage1.subscriptionId": {
-      "Type": "subscription",
-      "Value": "fc6ba87f-65eb-48ac-b1f8-abe13b2f8260"
-    },
     "secrets1.resourceGroupName": {
       "Type": "resourceGroup",
       "Value": "WebApps"

@@ -4,6 +4,10 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using Azure.Storage;
+using Azure.Storage.Files.DataLake;
+using Azure.Storage.Files.DataLake.Models;
+using NUnit.Framework;
 
 namespace CloudScraps.Pages
 {
@@ -13,5 +17,7 @@ namespace CloudScraps.Pages
         {
            LBLUsername.Text = Session["ActiveUser"] + "";
         }
+
+
     }
 }
