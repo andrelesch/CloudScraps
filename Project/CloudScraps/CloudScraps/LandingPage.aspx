@@ -10,6 +10,20 @@
             margin-left:350px;
             text-align: center;
         }
+        .UploadPanel {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            text-align: center;
+        }
+        .auto-style2 {
+            position: absolute;
+            top: 20%;
+            left: 10%;
+            transform: translateX(-50%) translateY(-50%);
+            text-align: center;
+        }
     </style>
 </head>
 <body style="background-color:#e4ecf0">
@@ -62,6 +76,10 @@
 &nbsp;&nbsp;&nbsp;
             <asp:Image ID="IMG12" runat="server" BackColor="#CCCCCC" BorderColor="Gray" BorderStyle="Solid" Height="160px" Width="160px" />
         </div>
+        <asp:Panel ID="PNLUpload" runat="server" CssClass="auto-style2" Height="498px" Width="848px" BackColor="#E4ECF0">
+            <br />
+            <br />
+        </asp:Panel>
     </form>
 </body>
 </html>

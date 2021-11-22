@@ -16,10 +16,9 @@
       "type": "secrets.user"
     },
     "storage1": {
-      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/cloudscrapsstorage",
-      "type": "storage.azure",
-      "connectionId": "cloudscrapsstorage",
-      "secretStore": "AzureKeyVault"
+      "type": "storage",
+      "suggestion": "true",
+      "ignored": "true"
     }
   }
 }
