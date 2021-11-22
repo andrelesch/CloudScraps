@@ -10,10 +10,6 @@
     },
     "secrets2": {
       "type": "secrets"
-    },
-    "storage1": {
-      "type": "storage",
-      "connectionId": "cloudscrapsstorage"
     }
   }
 }

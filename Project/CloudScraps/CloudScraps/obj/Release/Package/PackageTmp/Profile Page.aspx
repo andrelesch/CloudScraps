@@ -7,22 +7,26 @@
     <title></title>
     <style type="text/css">
         .auto-style1 {
-            margin-left: 350px;
+            text-align: center;
         }
-        </style>
+         .labelfix {
+            text-align: left;
+        }
+    </style>
 </head>
 <body style="background-color:#e4ecf0">
     <form id="form1" runat="server">
         <div class="auto-style1">
     
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Image ID="Image1" runat="server" Height="174px" ImageUrl="~/Images/Straight Orange copy.png" Width="424px" />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Image ID="Image1" runat="server" Height="174px" ImageUrl="~/Images/Straight Orange copy.png" Width="487px" />
 &nbsp; 
         
         &nbsp;&nbsp;&nbsp;
             <br />
-            <asp:Image ID="Image2" runat="server" BackColor="#CCCCCC" BorderColor="Gray" BorderStyle="Solid" Height="120px" Width="120px" />
 &nbsp;&nbsp;&nbsp;
-            <asp:Label ID="LBLUsername" runat="server" Font-Size="20pt" Font-Underline="True" ForeColor="Gray" Height="110px" Text="@username"></asp:Label>
+            <asp:Label ID="LBLUsername" runat="server" Font-Size="20pt" Font-Underline="True" ForeColor="Gray" Height="39px" Text="@username" Width="584px" class="labelfix"></asp:Label>
+            <asp:LinkButton ID="LBNHome" runat="server" ForeColor="Gray" OnClick="LBNHome_Click">Back to Landing Page</asp:LinkButton>
+            <br />
             <asp:Panel ID="Panel1" runat="server">
                 <asp:Label ID="LBLName" runat="server" Font-Bold="True" Font-Size="15pt" ForeColor="Gray" Text="First Name"></asp:Label>
                 &nbsp;
@@ -48,32 +52,9 @@
 &nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <br />
+            <asp:Panel ID="PNLProfile" runat="server">
+            </asp:Panel>
             <br />
-            <asp:Image ID="IMGA" runat="server" BackColor="#CCCCCC" BorderColor="Gray" BorderStyle="Solid" Height="160px" Width="160px" />
-&nbsp;&nbsp;&nbsp;
-            <asp:Image ID="IMGB" runat="server" BackColor="#CCCCCC" BorderColor="Gray" BorderStyle="Solid" Height="160px" Width="160px" />
-&nbsp;&nbsp;&nbsp;
-            <asp:Image ID="IMGC" runat="server" BackColor="#CCCCCC" BorderColor="Gray" BorderStyle="Solid" Height="160px" Width="160px" />
-&nbsp;&nbsp;&nbsp;
-            <asp:Image ID="IMGD" runat="server" BackColor="#CCCCCC" BorderColor="Gray" BorderStyle="Solid" Height="160px" Width="160px" />
-            <br />
-            <br />
-            <asp:Image ID="IMGE" runat="server" BackColor="#CCCCCC" BorderColor="Gray" BorderStyle="Solid" Height="160px" Width="160px" />
-&nbsp;&nbsp;&nbsp;
-            <asp:Image ID="IMGF" runat="server" BackColor="#CCCCCC" BorderColor="Gray" BorderStyle="Solid" Height="160px" Width="160px" />
-&nbsp;&nbsp;&nbsp;
-            <asp:Image ID="IMGG" runat="server" BackColor="#CCCCCC" BorderColor="Gray" BorderStyle="Solid" Height="160px" Width="160px" />
-&nbsp;&nbsp;&nbsp;
-            <asp:Image ID="IMGH" runat="server" BackColor="#CCCCCC" BorderColor="Gray" BorderStyle="Solid" Height="160px" Width="160px" />
-            <br />
-            <br />
-            <asp:Image ID="IMGI" runat="server" BackColor="#CCCCCC" BorderColor="Gray" BorderStyle="Solid" Height="160px" Width="160px" />
-&nbsp;&nbsp;&nbsp;
-            <asp:Image ID="IMGJ" runat="server" BackColor="#CCCCCC" BorderColor="Gray" BorderStyle="Solid" Height="160px" Width="160px" />
-&nbsp;&nbsp;&nbsp;
-            <asp:Image ID="IMGK" runat="server" BackColor="#CCCCCC" BorderColor="Gray" BorderStyle="Solid" Height="160px" Width="160px" />
-&nbsp;&nbsp;&nbsp;
-            <asp:Image ID="IMGL" runat="server" BackColor="#CCCCCC" BorderColor="Gray" BorderStyle="Solid" Height="160px" Width="160px" />
         
         </div>
     </form>
