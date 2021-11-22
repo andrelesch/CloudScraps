@@ -41,7 +41,7 @@
         <div class="auto-style3">
     <p style="font-family:add font; font-size:80px;font-style:normal;color:white" class="auto-style2">
     
-            <asp:Image ID="Logo" runat="server" Height="174px" ImageUrl="~/Images/Straight Orange copy.png" Width="424px" ImageAlign="Middle" />
+            <asp:Image ID="Logo" runat="server" Height="174px" ImageUrl="~/Images/Straight Orange copy.png" Width="487px" ImageAlign="Middle" />
         
 </p>
         <br />

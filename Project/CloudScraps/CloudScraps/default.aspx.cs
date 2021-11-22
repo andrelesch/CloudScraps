@@ -7,6 +7,7 @@ using System.Web.UI.WebControls;
 using System.Data.SqlClient;
 using System.Data;
 
+
 namespace CloudScraps
 {
     public partial class _default : System.Web.UI.Page
@@ -54,7 +55,7 @@ namespace CloudScraps
         {            
             connect = new SqlConnection(connectionstr);
             connect.Open();
-            command = new SqlCommand("SELECT User_Password FROM [User] WHERE UserName = '" + TXTUsername.Text + "'", connect);
+            command = new SqlCommand("SELECT User_Password, User_First_Name, User_Last_Name FROM [User] WHERE UserName = '" + TXTUsername.Text + "'", connect);
             reader = command.ExecuteReader();
 
             bool bLoginSuccess = false;
@@ -66,11 +67,15 @@ namespace CloudScraps
                 while (reader.Read())
                 {
                     string sPassword = reader.GetValue(0).ToString();
+                    string FName = reader.GetValue(1).ToString();
+                    string LName = reader.GetValue(1).ToString();
                     if (sPassword == TXTPassword.Text)
                     {
                         // Valid user login
                         bLoginSuccess = true;
                         Session["ActiveUser"] = TXTUsername.Text;
+                        Session["FName"] = FName;
+                        Session["LName"] = LName;
                         Response.Redirect("LandingPage.aspx");
                         break;
                     }

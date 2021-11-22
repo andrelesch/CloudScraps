@@ -87,120 +87,120 @@ namespace CloudScraps
         protected global::System.Web.UI.WebControls.Button btnSearch;
 
         /// <summary>
-        /// LBLShred control.
+        /// Panel1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LBLShred;
+        protected global::System.Web.UI.WebControls.Panel Panel1;
 
         /// <summary>
-        /// IMG1 control.
+        /// PNLUpload control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image IMG1;
+        protected global::System.Web.UI.WebControls.Panel PNLUpload;
 
         /// <summary>
-        /// IMG2 control.
+        /// lblUploadImage control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image IMG2;
+        protected global::System.Web.UI.WebControls.Label lblUploadImage;
 
         /// <summary>
-        /// IMG3 control.
+        /// lblSelect control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image IMG3;
+        protected global::System.Web.UI.WebControls.Label lblSelect;
 
         /// <summary>
-        /// IMG4 control.
+        /// FileUploadField control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image IMG4;
+        protected global::System.Web.UI.WebControls.FileUpload FileUploadField;
 
         /// <summary>
-        /// IMG5 control.
+        /// lblItem control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image IMG5;
+        protected global::System.Web.UI.WebControls.Label lblItem;
 
         /// <summary>
-        /// IMG6 control.
+        /// txtItemName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image IMG6;
+        protected global::System.Web.UI.WebControls.TextBox txtItemName;
 
         /// <summary>
-        /// IMG7 control.
+        /// lblGeolocation control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image IMG7;
+        protected global::System.Web.UI.WebControls.Label lblGeolocation;
 
         /// <summary>
-        /// IMG8 control.
+        /// txtGeo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image IMG8;
+        protected global::System.Web.UI.WebControls.TextBox txtGeo;
 
         /// <summary>
-        /// IMG9 control.
+        /// lblTags control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image IMG9;
+        protected global::System.Web.UI.WebControls.Label lblTags;
 
         /// <summary>
-        /// IMG10 control.
+        /// txtTags control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image IMG10;
+        protected global::System.Web.UI.WebControls.TextBox txtTags;
 
         /// <summary>
-        /// IMG11 control.
+        /// btbUpload control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image IMG11;
+        protected global::System.Web.UI.WebControls.Button btbUpload;
 
         /// <summary>
-        /// IMG12 control.
+        /// LBLUploadStatus control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image IMG12;
+        protected global::System.Web.UI.WebControls.Label LBLUploadStatus;
     }
 }
