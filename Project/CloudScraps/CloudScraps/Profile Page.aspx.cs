@@ -37,6 +37,11 @@ namespace CloudScraps.Pages
             command = new SqlCommand("SELECT Item_Data, Item_ID FROM [Item] WHERE UserName = '" + user + "'", connect);
             reader = command.ExecuteReader();
 
+            //Probeerslag vir meetadata trek. 
+
+            //Sorry fwend, I tried, but i'm lost at the moment ":(
+
+
             try
             {
                 while (reader.Read())
@@ -95,6 +100,7 @@ namespace CloudScraps.Pages
 
         protected void LBNHome_Click(object sender, EventArgs e)
         {
+            Session["ActiveUser"] = LBLUsername.Text;
             Response.Redirect("LandingPage.aspx");
         }
     }
