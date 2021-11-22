@@ -23,6 +23,8 @@
             left: 10%;
             transform: translateX(-50%) translateY(-50%);
             text-align: center;
+            width: 624px;
+            height: 538px;
         }
     </style>
 </head>
@@ -76,9 +78,34 @@
 &nbsp;&nbsp;&nbsp;
             <asp:Image ID="IMG12" runat="server" BackColor="#CCCCCC" BorderColor="Gray" BorderStyle="Solid" Height="160px" Width="160px" />
         </div>
-        <asp:Panel ID="PNLUpload" runat="server" CssClass="auto-style2" Height="498px" Width="848px" BackColor="#E4ECF0">
+        <asp:Panel ID="PNLUpload" runat="server" CssClass="auto-style2" BackColor="#E4ECF0">
+            <br />
+            <asp:Label ID="lblUploadImage" runat="server" Font-Bold="True" Font-Size="15pt" Font-Underline="True" ForeColor="Gray" Text="Upload Image"></asp:Label>
             <br />
             <br />
+            <asp:Label ID="lblSelect" runat="server" Font-Bold="True" Font-Size="10pt" ForeColor="Gray" Text="Please select a image file below!"></asp:Label>
+            <br />
+            <asp:FileUpload ID="FileUploadField" runat="server" AllowMultiple="True" BackColor="#5BDDE1" ForeColor="Gray" Width="490px" />
+            <br />
+            <br />
+            <asp:Label ID="lblItem" runat="server" Font-Bold="True" Font-Size="12pt" ForeColor="Gray" Text="Item Name"></asp:Label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:TextBox ID="txtItemName" runat="server" BackColor="#5DE1E6" Font-Bold="True" ForeColor="White"></asp:TextBox>
+            <br />
+            <asp:Label ID="lblGeolocation" runat="server" Font-Bold="True" Font-Size="12pt" ForeColor="Gray" Text="Geolocation"></asp:Label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:TextBox ID="txtGeo" runat="server" BackColor="#5DE1E6" Font-Bold="True" ForeColor="White"></asp:TextBox>
+            <br />
+            <asp:Label ID="lblTags" runat="server" Font-Bold="True" Font-Size="12pt" ForeColor="Gray" Text="Tags"></asp:Label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:TextBox ID="txtTags" runat="server" BackColor="#5DE1E6" Font-Bold="True" ForeColor="White"></asp:TextBox>
+            <br />
+            <asp:Label ID="lblDate" runat="server" Font-Bold="True" Font-Size="12pt" ForeColor="Gray" Text="Capture Date"></asp:Label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:TextBox ID="txtDate" runat="server" BackColor="#5DE1E6" Font-Bold="True" ForeColor="White"></asp:TextBox>
+            <br />
+            <br />
+            <asp:Button ID="btbUpload" runat="server" BackColor="#FDC162" Font-Bold="True" Font-Size="12pt" Font-Underline="False" ForeColor="White" Height="41px" Text="Upload" Width="281px" />
         </asp:Panel>
     </form>
 </body>
