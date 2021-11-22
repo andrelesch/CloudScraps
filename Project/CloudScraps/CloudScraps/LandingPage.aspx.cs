@@ -34,24 +34,33 @@ namespace CloudScraps
             command = new SqlCommand("SELECT Item_Data, Item_ID FROM [Item] WHERE UserName = '" + user + "'", connect);
             reader = command.ExecuteReader();
 
-            while (reader.Read())
-            {             
+            try
+            {
+                while (reader.Read())
+                {
 
-                byte[] bytes = (byte[])reader.GetValue(0);
-                string strBase64 = Convert.ToBase64String(bytes);
+                    byte[] bytes = (byte[])reader.GetValue(0);
+                    string strBase64 = Convert.ToBase64String(bytes);
 
-                ImageButton img = new ImageButton();
-                img.Height = 160;
-                img.Width = 160;
-                img.BorderWidth = 10;
-                img.BorderColor = System.Drawing.Color.Gray;
-                img.ImageUrl = "data:Image/png;base64," + strBase64;
-                img.AlternateText = reader.GetValue(1).ToString();             
-                img.Click += new ImageClickEventHandler(img_Click);
+                    ImageButton img = new ImageButton();
+                    img.Height = 160;
+                    img.Width = 160;
+                    img.BorderWidth = 10;
+                    img.BorderColor = System.Drawing.Color.Gray;
+                    img.ImageUrl = "data:Image/png;base64," + strBase64;
+                    img.AlternateText = reader.GetValue(1).ToString();
+                    img.Click += new ImageClickEventHandler(img_Click);
+                    connect.Close();
 
-                Panel1.Controls.Add(img);
-                Panel1.Controls.Add(new LiteralControl("&nbsp"));
+                    Panel1.Controls.Add(img);
+                    Panel1.Controls.Add(new LiteralControl("&nbsp"));
+                }
             }
+            catch
+            {
+
+            }
+            
 
         }
 
@@ -77,6 +86,7 @@ namespace CloudScraps
                 item.BorderWidth = 10;
                 item.BorderColor = System.Drawing.Color.Gray;
                 item.ImageUrl = "data:Image/png;base64," + strBase64;
+                connect.Close();
 
                 Panel1.Controls.Add(item);
 
@@ -202,10 +212,7 @@ namespace CloudScraps
                     LBLUploadStatus.Text = "Upload Successful";
 
                     PanelClean();
-
-                }
-
-                
+                }                
             }
             else
             {

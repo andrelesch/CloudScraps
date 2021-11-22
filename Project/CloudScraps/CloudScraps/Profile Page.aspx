@@ -12,6 +12,9 @@
          .labelfix {
             text-align: left;
         }
+         .labelfixR {
+            text-align: right;
+        }
     </style>
 </head>
 <body style="background-color:#e4ecf0">

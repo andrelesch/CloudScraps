@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
   <parameter name="cloudscrapsstorage-Web.config Connection String" description="cloudscrapsstorage Connection String used in web.config by the application to access the database." defaultValue="Server = tcp:cloudscrapsdbserver.database.windows.net,1433;Initial Catalog = CloudScraps_db; Persist Security Info=False;User ID = CloudMan; Password=CMPG323@Me; MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout = 30" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="\\\\Mac\\iCloud\\Work\\B\.Sc\ IT\\2021\\2de\ Semester\\CMPG323\ -\ Developments\\Project\ 2\\CloudScraps\\Project\\CloudScraps\\CloudScraps\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='cloudscrapsstorage']/@connectionString" />
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\User\\Desktop\\NWU\\2021\\Sem\ 2\\CMPG323\\Project\ 2\\CloudScraps\\Project\\CloudScraps\\CloudScraps\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='cloudscrapsstorage']/@connectionString" />
   </parameter>
 </parameters>

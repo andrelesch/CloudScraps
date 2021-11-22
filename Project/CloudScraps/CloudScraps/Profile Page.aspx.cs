@@ -34,19 +34,13 @@ namespace CloudScraps.Pages
         {
             connect = new SqlConnection(connectionstr);
             connect.Open();
-            command = new SqlCommand("SELECT Item_Data, Item_ID FROM [Item] WHERE UserName = '" + user + "'", connect);
+            command = new SqlCommand("SELECT Item_Data, Item_ID, Item_Name FROM [Item] WHERE UserName = '" + user + "'", connect);
             reader = command.ExecuteReader();
-
-            //Probeerslag vir meetadata trek. 
-
-            //Sorry fwend, I tried, but i'm lost at the moment ":(
-
 
             try
             {
                 while (reader.Read())
                 {
-
                     byte[] bytes = (byte[])reader.GetValue(0);
                     string strBase64 = Convert.ToBase64String(bytes);
 
@@ -57,10 +51,18 @@ namespace CloudScraps.Pages
                     img.BorderColor = System.Drawing.Color.Gray;
                     img.ImageUrl = "data:Image/png;base64," + strBase64;
                     img.AlternateText = reader.GetValue(1).ToString();
-                    img.Click += new ImageClickEventHandler(img_Click);
 
-                    Panel1.Controls.Add(img);
-                    Panel1.Controls.Add(new LiteralControl("&nbsp"));
+                    string itemName = reader.GetValue(2).ToString();
+
+                    img.Click += delegate
+                        {
+                        img_Click(img.ImageUrl, itemName);
+                        };                           
+
+                    connect.Close();
+
+                    PNLProfile.Controls.Add(img);
+                    PNLProfile.Controls.Add(new LiteralControl("&nbsp"));
                 }
             }
             catch
@@ -71,31 +73,139 @@ namespace CloudScraps.Pages
 
         }
 
-        protected void img_Click(object sender, ImageClickEventArgs e)
+        protected void img_Click(string imgUrl, string imgName)
         {
-            Panel1.Controls.Clear();
-            string strImgID = (sender as ImageButton).AlternateText;
-            int imgID = Int32.Parse(strImgID);
+            int imgID = Int32.Parse(imgUrl);
+            
+            PNLProfile.Controls.Clear();
 
             connect = new SqlConnection(connectionstr);
             connect.Open();
             command = new SqlCommand("SELECT Item_Data FROM [Item] WHERE Item_ID = " + imgID, connect);
+            
             reader = command.ExecuteReader();
-
-            byte[] bytes = (byte[])reader.GetValue(0);
-            string strBase64 = Convert.ToBase64String(bytes);
 
             Image item = new Image();
             item.Height = 500;
             item.Width = 500;
             item.BorderWidth = 10;
             item.BorderColor = System.Drawing.Color.Gray;
-            item.ImageUrl = "data:Image/png;base64," + strBase64;
 
-            Panel1.Controls.Add(item);
+            try
+            {
+                byte[] bytes = (byte[])reader.GetValue(0);
+                string strBase64 = Convert.ToBase64String(bytes);
+                connect.Close();
+                
+                item.ImageUrl = "data:Image/png;base64," + strBase64;
+            }
+            catch
+            {
+
+            }
+
+            
+
+            PNLProfile.Controls.Add(item);
 
             Panel options = new Panel();
 
+            connect.Open();
+            command = new SqlCommand("SELECT Geolaction, Tags, Captured_Date FROM [Metadata] WHERE Item_ID = " + imgID, connect);
+            reader = command.ExecuteReader();
+            ListBox metadata = new ListBox();
+            metadata.Width = 500;
+            metadata.Items.Add(imgName);
+            metadata.Items.Add("");
+
+            try
+            {                
+                metadata.Items.Add(reader.GetValue(0).ToString());
+                metadata.Items.Add(reader.GetValue(1).ToString());
+                metadata.Items.Add(reader.GetValue(2).ToString());
+                metadata.Items.Add("");
+                connect.Close();
+            }
+            catch
+            {
+
+            }
+
+            
+            
+
+            LinkButton edit = new LinkButton();
+            edit.Text = "Edit";
+            edit.Width = 140;
+            edit.ForeColor = System.Drawing.Color.Gray;
+            edit.Click += delegate
+            {
+                editScript(imgID);
+            };//new EventHandler();
+
+
+            LinkButton delete = new LinkButton();
+            delete.Text = "Delete";
+            delete.Width = 140;
+            delete.ForeColor = System.Drawing.Color.Gray;
+            delete.Click += delegate
+            {
+                deleteScript(imgID);
+            };
+
+            PNLProfile.Controls.Add(metadata);
+            Panel1.Controls.Add(new LiteralControl("&nbsp"));
+            PNLProfile.Controls.Add(edit);
+            PNLProfile.Controls.Add(delete);
+            Panel1.Controls.Add(new LiteralControl("&nbsp"));
+        }
+
+        private void editScript(int imgID)
+        {
+            PNLProfile.Controls.Clear();
+
+            Label lblGeo = new Label();
+            lblGeo.Width = 140;
+            lblGeo.CssClass = "labelfixR";
+            lblGeo.Text = "Geolocation: ";
+
+            TextBox txtGeo = new TextBox();
+            txtGeo.Width = 150;
+            txtGeo.CssClass = "auto-style1";
+
+            Label lblTags = new Label();
+            lblTags.Width = 140;
+            lblTags.CssClass = "labelfixR";
+            lblTags.Text = "Tags:  ";
+
+            TextBox txtTags = new TextBox();
+            txtTags.Width = 150;
+            txtTags.CssClass = "auto-style1";
+
+            //Edit Metadata
+            connect = new SqlConnection(connectionstr);
+            connect.Open();
+
+            string sqlUpdate = "UPDATE [Metadata] SET Geolocation = " + txtGeo.Text + " , Tags = " + txtTags.Text + " WHERE Item_ID = "+ imgID;
+
+            command = new SqlCommand(sqlUpdate, connect);
+            command.ExecuteNonQuery();
+            connect.Close();
+
+            PNLProfile.Controls.Clear();
+        }
+
+        private void deleteScript(int imgID)
+        {
+            connect = new SqlConnection(connectionstr);
+            connect.Open();
+
+            string sqlDelete = "DELETE FROM [Metadata] WHERE Item_ID = " + imgID;
+
+            command = new SqlCommand(sqlDelete, connect);
+            command.ExecuteNonQuery();
+            connect.Close();
+            PNLProfile.Controls.Clear();
         }
 
         protected void LBNHome_Click(object sender, EventArgs e)
