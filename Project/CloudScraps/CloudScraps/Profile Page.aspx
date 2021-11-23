@@ -36,13 +36,22 @@
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <br />
             <br />
-            <asp:Panel ID="Panel1" runat="server">
-                &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </asp:Panel>
 &nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <br />
             <asp:Panel ID="PNLProfile" runat="server">
+                <asp:LinkButton ID="LBNEdit" runat="server" CssClass="labelfix" ForeColor="Gray" OnClick="LBNEdit_Click" Visible="False" Width="200px">EDIT</asp:LinkButton>
+                <asp:LinkButton ID="LBNDelete" runat="server" CssClass="labelfixR" ForeColor="Gray" OnClick="LBNDelete_Click" Visible="False" Width="200px">DELETE</asp:LinkButton>
+                <br />
+            </asp:Panel>
+            <asp:Panel ID="Panel1" runat="server">
+                <asp:Label ID="lblGeo" runat="server" Font-Bold="True" ForeColor="Gray" Text="GEOLOCATION:" Width="140px"></asp:Label>
+                <asp:TextBox ID="txtGeo" runat="server" BackColor="#65D1D6" OnTextChanged="txtGeo_TextChanged" Width="160px"></asp:TextBox>
+                <br />
+                <asp:Label ID="lblTags" runat="server" Font-Bold="True" ForeColor="Gray" Text="TAGS: " Width="140px"></asp:Label>
+                <asp:TextBox ID="txtTags" runat="server" BackColor="#65D1D6" Width="160px"></asp:TextBox>
+                <br />
+                <asp:Button ID="btnUpdate" runat="server" BackColor="#E69F3C" Font-Bold="True" ForeColor="White" OnClick="btnUpdate_Click1" Text="UPDATE" Width="120px" />
             </asp:Panel>
             <br />
         
