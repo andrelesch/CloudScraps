@@ -31,7 +31,8 @@ namespace CloudScraps
 
             connect = new SqlConnection(connectionstr);
             connect.Open();
-            command = new SqlCommand("SELECT Item_Data, Item_ID FROM [Item] WHERE UserName = '" + user + "'", connect);
+            //command = new SqlCommand("SELECT Item_Data, Item_ID FROM [Item] WHERE UserName = '" + user + "'", connect);
+            command = new SqlCommand("SELECT Item_Data, Item_ID, Item_Name FROM [Item] ", connect);
             reader = command.ExecuteReader();
 
             try
@@ -48,13 +49,17 @@ namespace CloudScraps
                     img.BorderWidth = 10;
                     img.BorderColor = System.Drawing.Color.Gray;
                     img.ImageUrl = "data:Image/png;base64," + strBase64;
-                    img.AlternateText = reader.GetValue(1).ToString();
-                    img.Click += new ImageClickEventHandler(img_Click);
-                    connect.Close();
+
+                    img.ToolTip = reader.GetValue(2).ToString(); //item Name
+                    int imgID = Int32.Parse(reader.GetValue(1).ToString()); //item ID 
+
+                    img.Click += (s, e) => { img_Click(img.ImageUrl, imgID, img.ToolTip); };
 
                     Panel1.Controls.Add(img);
                     Panel1.Controls.Add(new LiteralControl("&nbsp"));
                 }
+                connect.Close();
+
             }
             catch
             {
@@ -64,41 +69,54 @@ namespace CloudScraps
 
         }
 
-        protected void img_Click(object sender, ImageClickEventArgs e)
+        protected void img_Click(string imgUrl, int imgID, string imgName)
         {
+            Session["ItemID"] = imgID.ToString();
             Panel1.Controls.Clear();
-            string strImgID = (sender as ImageButton).AlternateText;
-            int imgID = Int32.Parse(strImgID);
 
-            connect = new SqlConnection(connectionstr);
+            Image item = new Image();
+            item.Height = 500;
+            item.Width = 500;
+            item.BorderWidth = 10;
+            item.BorderColor = System.Drawing.Color.Gray;
+            item.ImageUrl = imgUrl;
+
+            Panel1.Controls.Add(item);
+            Panel1.Controls.Add(new LiteralControl("<br/>"));
+
+            
+
             connect.Open();
-            command = new SqlCommand("SELECT Item_Data FROM [Item] WHERE Item_ID = " + imgID, connect);
+            command = new SqlCommand("SELECT Geolocation, Tags, Captured_Date FROM [Metadata] WHERE Item_ID = " + imgID, connect);
             reader = command.ExecuteReader();
+
+            ListBox metadata = new ListBox();
+            metadata.Width = 500;
+            metadata.Height = 200;
+            metadata.Items.Add(imgName);
+            metadata.Items.Add("");
 
             try
             {
-                byte[] bytes = (byte[])reader.GetValue(0);
-                string strBase64 = Convert.ToBase64String(bytes);
-
-                Image item = new Image();
-                item.Height = 500;
-                item.Width = 500;
-                item.BorderWidth = 10;
-                item.BorderColor = System.Drawing.Color.Gray;
-                item.ImageUrl = "data:Image/png;base64," + strBase64;
+                while (reader.Read())
+                {
+                    metadata.Items.Add("Geolocation: " +reader.GetValue(0).ToString());
+                    metadata.Items.Add("Tags: " +reader.GetValue(1).ToString());
+                    metadata.Items.Add("Date Captured: " +reader.GetValue(2).ToString());
+                    metadata.Items.Add("");
+                }
                 connect.Close();
-
-                Panel1.Controls.Add(item);
-
-                Panel options = new Panel();
             }
-            catch 
+            catch
             {
+                Label lblError = new Label();
+                lblError.Text = "Image Click, image not read";
+            }
 
-            }              
+            Panel1.Controls.Add(metadata);
         }
 
-        protected void LBLSignOut_Click(object sender, EventArgs e)
+            protected void LBLSignOut_Click(object sender, EventArgs e)
         {
             Response.Redirect("default.aspx");
         }
@@ -223,6 +241,9 @@ namespace CloudScraps
             Response.Redirect("LandingPage.aspx");
         }
 
-       
+        protected void btnSearch_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

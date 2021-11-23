@@ -49,6 +49,7 @@ namespace CloudScraps
             {
                 ClearForm();
             }
+
         }
 
         protected void BTNLogin_Click(object sender, EventArgs e)

@@ -50,8 +50,8 @@
             &nbsp;<asp:LinkButton ID="LBLSignOut" runat="server" ForeColor="Gray" OnClick="LBLSignOut_Click">Sign Out</asp:LinkButton>
             <br />
             <br />
-            <asp:TextBox ID="TextBox1" runat="server" BackColor="#5DE1E6" ForeColor="White" Height="30px" Width="528px"></asp:TextBox>
-&nbsp;<asp:Button ID="btnSearch" runat="server" BackColor="#FDC162" Font-Bold="True" Font-Size="12pt" ForeColor="White" Height="37px" Text="Search" Width="169px" />
+            <asp:TextBox ID="TXTSearch" runat="server" BackColor="#5DE1E6" ForeColor="White" Height="30px" Width="528px"></asp:TextBox>
+&nbsp;<asp:Button ID="btnSearch" runat="server" BackColor="#FDC162" Font-Bold="True" Font-Size="12pt" ForeColor="White" Height="37px" Text="Search" Width="169px" OnClick="btnSearch_Click" />
             <br />
 &nbsp;&nbsp;&nbsp;
             <asp:Panel ID="Panel1" runat="server" CssClass="auto-style2">
