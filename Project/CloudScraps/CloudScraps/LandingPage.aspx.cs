@@ -31,64 +31,92 @@ namespace CloudScraps
 
             connect = new SqlConnection(connectionstr);
             connect.Open();
-            command = new SqlCommand("SELECT Item_Data, Item_ID FROM [Item] WHERE UserName = '" + user + "'", connect);
-            reader = command.ExecuteReader();
-
-            while (reader.Read())
-            {             
-
-                byte[] bytes = (byte[])reader.GetValue(0);
-                string strBase64 = Convert.ToBase64String(bytes);
-
-                ImageButton img = new ImageButton();
-                img.Height = 160;
-                img.Width = 160;
-                img.BorderWidth = 10;
-                img.BorderColor = System.Drawing.Color.Gray;
-                img.ImageUrl = "data:Image/png;base64," + strBase64;
-                img.AlternateText = reader.GetValue(1).ToString();             
-                img.Click += new ImageClickEventHandler(img_Click);
-
-                Panel1.Controls.Add(img);
-                Panel1.Controls.Add(new LiteralControl("&nbsp"));
-            }
-
-        }
-
-        protected void img_Click(object sender, ImageClickEventArgs e)
-        {
-            Panel1.Controls.Clear();
-            string strImgID = (sender as ImageButton).AlternateText;
-            int imgID = Int32.Parse(strImgID);
-
-            connect = new SqlConnection(connectionstr);
-            connect.Open();
-            command = new SqlCommand("SELECT Item_Data FROM [Item] WHERE Item_ID = " + imgID, connect);
+            //command = new SqlCommand("SELECT Item_Data, Item_ID FROM [Item] WHERE UserName = '" + user + "'", connect);
+            command = new SqlCommand("SELECT Item_Data, Item_ID, Item_Name FROM [Item] ", connect);
             reader = command.ExecuteReader();
 
             try
             {
-                byte[] bytes = (byte[])reader.GetValue(0);
-                string strBase64 = Convert.ToBase64String(bytes);
+                while (reader.Read())
+                {
 
-                Image item = new Image();
-                item.Height = 500;
-                item.Width = 500;
-                item.BorderWidth = 10;
-                item.BorderColor = System.Drawing.Color.Gray;
-                item.ImageUrl = "data:Image/png;base64," + strBase64;
+                    byte[] bytes = (byte[])reader.GetValue(0);
+                    string strBase64 = Convert.ToBase64String(bytes);
 
-                Panel1.Controls.Add(item);
+                    ImageButton img = new ImageButton();
+                    img.Height = 160;
+                    img.Width = 160;
+                    img.BorderWidth = 10;
+                    img.BorderColor = System.Drawing.Color.Gray;
+                    img.ImageUrl = "data:Image/png;base64," + strBase64;
 
-                Panel options = new Panel();
+                    img.ToolTip = reader.GetValue(2).ToString(); //item Name
+                    int imgID = Int32.Parse(reader.GetValue(1).ToString()); //item ID 
+
+                    img.Click += (s, e) => { img_Click(img.ImageUrl, imgID, img.ToolTip); };
+
+                    Panel1.Controls.Add(img);
+                    Panel1.Controls.Add(new LiteralControl("&nbsp"));
+                }
+                connect.Close();
+
             }
-            catch 
+            catch
             {
 
-            }              
+            }
+            
+
         }
 
-        protected void LBLSignOut_Click(object sender, EventArgs e)
+        protected void img_Click(string imgUrl, int imgID, string imgName)
+        {
+            Session["ItemID"] = imgID.ToString();
+            Panel1.Controls.Clear();
+
+            Image item = new Image();
+            item.Height = 500;
+            item.Width = 500;
+            item.BorderWidth = 10;
+            item.BorderColor = System.Drawing.Color.Gray;
+            item.ImageUrl = imgUrl;
+
+            Panel1.Controls.Add(item);
+            Panel1.Controls.Add(new LiteralControl("<br/>"));
+
+            
+
+            connect.Open();
+            command = new SqlCommand("SELECT Geolocation, Tags, Captured_Date FROM [Metadata] WHERE Item_ID = " + imgID, connect);
+            reader = command.ExecuteReader();
+
+            ListBox metadata = new ListBox();
+            metadata.Width = 500;
+            metadata.Height = 200;
+            metadata.Items.Add(imgName);
+            metadata.Items.Add("");
+
+            try
+            {
+                while (reader.Read())
+                {
+                    metadata.Items.Add("Geolocation: " +reader.GetValue(0).ToString());
+                    metadata.Items.Add("Tags: " +reader.GetValue(1).ToString());
+                    metadata.Items.Add("Date Captured: " +reader.GetValue(2).ToString());
+                    metadata.Items.Add("");
+                }
+                connect.Close();
+            }
+            catch
+            {
+                Label lblError = new Label();
+                lblError.Text = "Image Click, image not read";
+            }
+
+            Panel1.Controls.Add(metadata);
+        }
+
+            protected void LBLSignOut_Click(object sender, EventArgs e)
         {
             Response.Redirect("default.aspx");
         }
@@ -202,10 +230,7 @@ namespace CloudScraps
                     LBLUploadStatus.Text = "Upload Successful";
 
                     PanelClean();
-
-                }
-
-                
+                }                
             }
             else
             {
@@ -216,6 +241,9 @@ namespace CloudScraps
             Response.Redirect("LandingPage.aspx");
         }
 
-       
+        protected void btnSearch_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

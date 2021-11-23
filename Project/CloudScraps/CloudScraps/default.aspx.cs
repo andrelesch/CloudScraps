@@ -49,6 +49,7 @@ namespace CloudScraps
             {
                 ClearForm();
             }
+
         }
 
         protected void BTNLogin_Click(object sender, EventArgs e)
@@ -63,23 +64,30 @@ namespace CloudScraps
             if (reader.HasRows == true)
             {
                 // This thing has rows, user was found
-
-                while (reader.Read())
+                try
                 {
-                    string sPassword = reader.GetValue(0).ToString();
-                    string FName = reader.GetValue(1).ToString();
-                    string LName = reader.GetValue(1).ToString();
-                    if (sPassword == TXTPassword.Text)
+                    while (reader.Read())
                     {
-                        // Valid user login
-                        bLoginSuccess = true;
-                        Session["ActiveUser"] = TXTUsername.Text;
-                        Session["FName"] = FName;
-                        Session["LName"] = LName;
-                        Response.Redirect("LandingPage.aspx");
-                        break;
+                        string sPassword = reader.GetValue(0).ToString();
+                        string FName = reader.GetValue(1).ToString();
+                        string LName = reader.GetValue(1).ToString();
+                        if (sPassword == TXTPassword.Text)
+                        {
+                            // Valid user login
+                            bLoginSuccess = true;
+                            Session["ActiveUser"] = TXTUsername.Text;
+                            Session["FName"] = FName;
+                            Session["LName"] = LName;
+                            Response.Redirect("LandingPage.aspx");
+                            break;
+                        }
                     }
                 }
+                catch
+                {
+
+                }
+                
 
             }
             else
@@ -132,20 +140,28 @@ namespace CloudScraps
             reader = command.ExecuteReader();
             string tempUser = "";
 
-            while (reader.Read())
+            try
             {
-                tempUser = reader.GetValue(0).ToString();
-                if(tempUser == user)
+                while (reader.Read())
                 {
-                    UsernameExistanceValidator.IsValid = false;
-                    return true;                                    
+                    tempUser = reader.GetValue(0).ToString();
+                    if (tempUser == user)
+                    {
+                        UsernameExistanceValidator.IsValid = false;
+                        return true;
+                    }
+                    else
+                    {
+                        UsernameExistanceValidator.IsValid = true;
+                    }
                 }
-                else
-                {
-                    UsernameExistanceValidator.IsValid = true;                    
-                }
+                connect.Close();
+                
             }
-            connect.Close();
+            catch
+            {
+
+            }
             return false;
         }
 
@@ -159,21 +175,29 @@ namespace CloudScraps
             reader = command.ExecuteReader();
             string tempEmail = "";
 
-            while (reader.Read())
+            try
             {
-                tempEmail = reader.GetValue(0).ToString();
-                if (tempEmail == TXTUser.Text)
+                while (reader.Read())
                 {
-                    ValidEmailValidator.ErrorMessage.Replace("Invalid Email Address","Email address already in use");
-                    ValidEmailValidator.IsValid = false;
-                    return true;
+                    tempEmail = reader.GetValue(0).ToString();
+                    if (tempEmail == TXTUser.Text)
+                    {
+                        ValidEmailValidator.ErrorMessage.Replace("Invalid Email Address", "Email address already in use");
+                        ValidEmailValidator.IsValid = false;
+                        return true;
+                    }
+                    else
+                    {
+                        ValidEmailValidator.IsValid = true;
+                    }
                 }
-                else
-                {
-                    ValidEmailValidator.IsValid = true;
-                }
+                connect.Close();
+                
             }
-            connect.Close();
+            catch
+            {
+
+            }
             return false;
         }
 
