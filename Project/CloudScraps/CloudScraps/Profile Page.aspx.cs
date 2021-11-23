@@ -26,10 +26,22 @@ namespace CloudScraps.Pages
             LBLName.Text = Session["FName"] + "";
             LBLSurname.Text = Session["LName"] + "";
 
-          //  if (!IsPostBack)
-           // {
-                LoadImages(Session["ActiveUser"] + "");
-            //}
+            if (!IsPostBack)
+            {
+                Panel1.Visible = false;
+                LBNEdit.Visible = false;
+                LBNDelete.Visible = false;
+            }
+                if (LBLUsername.Text.Length >1)
+                {
+                    LoadImages(Session["ActiveUser"] + "");
+                }
+                else
+                {
+                    Response.Redirect("default.aspx");
+                }
+
+            
         }
 
         private void LoadImages(string user)
@@ -37,8 +49,8 @@ namespace CloudScraps.Pages
             connect = new SqlConnection(connectionstr);
             connect.Open();
             command = new SqlCommand("SELECT Item_Data, Item_ID, Item_Name FROM [Item] WHERE UserName = '" + user + "'", connect);
-            reader = command.ExecuteReader();           
-
+            reader = command.ExecuteReader();
+            
             try
             {
                 while (reader.Read())
@@ -73,7 +85,9 @@ namespace CloudScraps.Pages
         protected void img_Click(string imgUrl, int imgID, string imgName)
         {
             Session["ItemID"] = imgID.ToString();
-            PNLProfile.Controls.Clear();
+            
+            LBNEdit.Visible = true;
+            LBNDelete.Visible = true;
 
             Image item = new Image();
             item.Height = 500;
@@ -83,9 +97,8 @@ namespace CloudScraps.Pages
             item.ImageUrl = imgUrl;
 
             PNLProfile.Controls.Add(item);
-            Panel1.Controls.Add(new LiteralControl("&nbsp"));
-
-            Panel options = new Panel();
+            PNLProfile.Controls.Add(new LiteralControl("&nbsp"));
+            PNLProfile.Controls.Add(new LiteralControl("<br/>"));
 
             connect.Open();
             command = new SqlCommand("SELECT Geolocation, Tags, Captured_Date FROM [Metadata] WHERE Item_ID = " + imgID, connect);
@@ -112,101 +125,65 @@ namespace CloudScraps.Pages
             {
                 Label lblError = new Label();
                 lblError.Text = "Image Click, image not read";
-            }                       
+            }
 
-            LinkButton edit = new LinkButton();
-            edit.Text = "Edit";
-            edit.Width = 140;
-            edit.ForeColor = System.Drawing.Color.Gray;
-            edit.Click += (s, e) => { editScript(imgID); };//new EventHandler();
-
-
-            LinkButton delete = new LinkButton();
-            delete.Text = "Delete";
-            delete.Width = 140;
-            delete.ForeColor = System.Drawing.Color.Gray;
-            delete.Click += (s, e) => { deleteScript(imgID); };
-
-            options.Controls.Add(metadata);
-            options.Controls.Add(new LiteralControl("<br />"));
-            options.Controls.Add(edit);
-            options.Controls.Add(delete);
-            options.Controls.Add(new LiteralControl("&nbsp"));
-            PNLProfile.Controls.Add(options);
-        }
-
-        private void editScript(int imgID)
-        {
-
-            Label lblGeo = new Label();
-            lblGeo.Width = 140;
-            lblGeo.CssClass = "labelfixR";
-            lblGeo.Text = "Geolocation: ";
-
-            TextBox txtGeo = new TextBox();
-            txtGeo.Width = 150;
-            txtGeo.CssClass = "auto-style1";
-
-            Label lblTags = new Label();
-            lblTags.Width = 140;
-            lblTags.CssClass = "labelfixR";
-            lblTags.Text = "Tags:  ";
-
-            TextBox txtTags = new TextBox();
-            txtTags.Width = 150;
-            txtTags.CssClass = "auto-style1"; 
+            PNLProfile.Controls.Add(metadata);
+            PNLProfile.Controls.Add(new LiteralControl("<br />"));
+            LBNEdit.Visible = true;
+            LBNDelete.Visible = true;
             
-            Button btnUpdate = new Button();
-            btnUpdate.Width = 100;
-            btnUpdate.Text = "Update";
-            btnUpdate.Click += (s, e) => { btnUpdate_Click(txtGeo.Text, txtTags.Text, imgID); };
-
-
-
-            Panel1.Controls.Add(lblGeo);
-            Panel1.Controls.Add(txtGeo);
-            Panel1.Controls.Add(new LiteralControl("<br />"));
-            Panel1.Controls.Add(lblTags);
-            Panel1.Controls.Add(txtTags);
-            Panel1.Controls.Add(new LiteralControl("<br />"));
-            Panel1.Controls.Add(btnUpdate);
-
-
-
-
-        }
-        protected void btnUpdate_Click(string geo, string tags, int imgID)
-        { 
-            //Edit Metadata
-            connect = new SqlConnection(connectionstr);
-            connect.Open();
-
-            string sqlUpdate = "UPDATE [Metadata] SET Geolocation = " + geo + " , Tags = " + tags + " WHERE Item_ID = "+ imgID;
-
-            command = new SqlCommand(sqlUpdate, connect);
-            command.ExecuteNonQuery();
-            connect.Close();
-            Response.Redirect("Profile Page.aspx");
-
-        }
-
-        private void deleteScript(int imgID)
-        {
-            connect = new SqlConnection(connectionstr);
-            connect.Open();
-
-            string sqlDelete = "DELETE FROM [Metadata] WHERE Item_ID = " + imgID;
-
-            command = new SqlCommand(sqlDelete, connect);
-            command.ExecuteNonQuery();
-            connect.Close();
-            Response.Redirect("Profile Page.aspx");
         }
 
         protected void LBNHome_Click(object sender, EventArgs e)
         {
             Session["ActiveUser"] = LBLUsername.Text;
             Response.Redirect("LandingPage.aspx");
+        }
+
+        protected void txtGeo_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void btnUpdate_Click1(object sender, EventArgs e)
+        {
+            //Edit Metadata
+            connect = new SqlConnection(connectionstr);
+            connect.Open();
+
+           // int imgID = Int32.Parse(Session["ItemID"] + "");
+
+            string sqlUpdate = "UPDATE [Metadata] SET Geolocation = '" + txtGeo.Text + "' , Tags = '" + txtTags.Text + "' WHERE Item_ID = "+ Session["ItemID"];
+
+            command = new SqlCommand(sqlUpdate, connect);
+            command.ExecuteNonQuery();
+            connect.Close();
+
+        
+            Response.Redirect("Profile Page.aspx");
+
+        }
+
+        protected void LBNEdit_Click(object sender, EventArgs e)
+        {
+            Panel1.Visible = true;
+
+        }
+
+        protected void LBNDelete_Click(object sender, EventArgs e)
+        {
+            connect = new SqlConnection(connectionstr);
+            connect.Open();
+
+            //int imgID = Int32.Parse(Session["ItemID"] + "");
+
+            string sqlDelete = "DELETE FROM [Item] WHERE Item_ID = " + Session["ItemID"];
+
+            command = new SqlCommand(sqlDelete, connect);
+            command.ExecuteNonQuery();
+            connect.Close();
+
+            Response.Redirect("Profile Page.aspx");
         }
     }
 }
