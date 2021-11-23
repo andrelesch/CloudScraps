@@ -245,3 +245,176 @@ C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\Clo
 C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Extensions.Options.xml
 C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Extensions.Primitives.xml
 C:\Users\Elrisa\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Identity.Client.xml
+\\Mac\iCloud\Work\B.Sc IT\2021\2de Semester\CMPG323 - Developments\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Azure.Identity.dll
+\\Mac\iCloud\Work\B.Sc IT\2021\2de Semester\CMPG323 - Developments\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Azure.Storage.Blobs.dll
+\\Mac\iCloud\Work\B.Sc IT\2021\2de Semester\CMPG323 - Developments\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Azure.Storage.Common.dll
+\\Mac\iCloud\Work\B.Sc IT\2021\2de Semester\CMPG323 - Developments\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Azure.Storage.Files.Shares.dll
+\\Mac\iCloud\Work\B.Sc IT\2021\2de Semester\CMPG323 - Developments\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Azure.Storage.Queues.dll
+\\Mac\iCloud\Work\B.Sc IT\2021\2de Semester\CMPG323 - Developments\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.dll
+\\Mac\iCloud\Work\B.Sc IT\2021\2de Semester\CMPG323 - Developments\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Extensions.Azure.dll
+\\Mac\iCloud\Work\B.Sc IT\2021\2de Semester\CMPG323 - Developments\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+\\Mac\iCloud\Work\B.Sc IT\2021\2de Semester\CMPG323 - Developments\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Extensions.Configuration.Binder.dll
+\\Mac\iCloud\Work\B.Sc IT\2021\2de Semester\CMPG323 - Developments\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Extensions.Configuration.dll
+\\Mac\iCloud\Work\B.Sc IT\2021\2de Semester\CMPG323 - Developments\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+\\Mac\iCloud\Work\B.Sc IT\2021\2de Semester\CMPG323 - Developments\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Extensions.Logging.Abstractions.dll
+\\Mac\iCloud\Work\B.Sc IT\2021\2de Semester\CMPG323 - Developments\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Extensions.Options.dll
+\\Mac\iCloud\Work\B.Sc IT\2021\2de Semester\CMPG323 - Developments\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Extensions.Primitives.dll
+\\Mac\iCloud\Work\B.Sc IT\2021\2de Semester\CMPG323 - Developments\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Identity.Client.dll
+\\Mac\iCloud\Work\B.Sc IT\2021\2de Semester\CMPG323 - Developments\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\System.Security.Cryptography.ProtectedData.dll
+\\Mac\iCloud\Work\B.Sc IT\2021\2de Semester\CMPG323 - Developments\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Azure.Identity.xml
+\\Mac\iCloud\Work\B.Sc IT\2021\2de Semester\CMPG323 - Developments\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Azure.Storage.Blobs.xml
+\\Mac\iCloud\Work\B.Sc IT\2021\2de Semester\CMPG323 - Developments\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Azure.Storage.Common.xml
+\\Mac\iCloud\Work\B.Sc IT\2021\2de Semester\CMPG323 - Developments\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Azure.Storage.Files.Shares.xml
+\\Mac\iCloud\Work\B.Sc IT\2021\2de Semester\CMPG323 - Developments\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Azure.Storage.Queues.xml
+\\Mac\iCloud\Work\B.Sc IT\2021\2de Semester\CMPG323 - Developments\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Configuration.ConfigurationBuilders.Azure.xml
+\\Mac\iCloud\Work\B.Sc IT\2021\2de Semester\CMPG323 - Developments\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Configuration.ConfigurationBuilders.Base.xml
+\\Mac\iCloud\Work\B.Sc IT\2021\2de Semester\CMPG323 - Developments\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.xml
+\\Mac\iCloud\Work\B.Sc IT\2021\2de Semester\CMPG323 - Developments\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Extensions.Azure.xml
+\\Mac\iCloud\Work\B.Sc IT\2021\2de Semester\CMPG323 - Developments\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Extensions.Configuration.xml
+\\Mac\iCloud\Work\B.Sc IT\2021\2de Semester\CMPG323 - Developments\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+\\Mac\iCloud\Work\B.Sc IT\2021\2de Semester\CMPG323 - Developments\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Extensions.Configuration.Binder.xml
+\\Mac\iCloud\Work\B.Sc IT\2021\2de Semester\CMPG323 - Developments\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+\\Mac\iCloud\Work\B.Sc IT\2021\2de Semester\CMPG323 - Developments\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Extensions.Logging.Abstractions.xml
+\\Mac\iCloud\Work\B.Sc IT\2021\2de Semester\CMPG323 - Developments\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Extensions.Options.xml
+\\Mac\iCloud\Work\B.Sc IT\2021\2de Semester\CMPG323 - Developments\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Extensions.Primitives.xml
+\\Mac\iCloud\Work\B.Sc IT\2021\2de Semester\CMPG323 - Developments\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Identity.Client.xml
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\CloudScraps.dll.config
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\CloudScraps.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\CloudScraps.pdb
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\roslyn\csc.exe
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\roslyn\csc.exe.config
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\roslyn\csc.rsp
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\roslyn\csi.exe
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\roslyn\csi.exe.config
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\roslyn\csi.rsp
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\roslyn\System.AppContext.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\roslyn\System.Console.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\roslyn\System.IO.Compression.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\roslyn\System.Net.Http.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\roslyn\System.Net.Sockets.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\roslyn\System.ValueTuple.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\roslyn\System.Xml.XPath.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\roslyn\vbc.exe
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\roslyn\vbc.exe.config
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\roslyn\vbc.rsp
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Azure.Core.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Azure.Identity.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Azure.Security.KeyVault.Keys.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Azure.Security.KeyVault.Secrets.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Azure.Storage.Blobs.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Azure.Storage.Common.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Azure.Storage.Files.Shares.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Azure.Storage.Queues.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\EntityFramework.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Azure.KeyVault.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Azure.KeyVault.WebKey.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Azure.Services.AppAuthentication.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Configuration.ConfigurationBuilders.Azure.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Configuration.ConfigurationBuilders.Base.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Extensions.Azure.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Extensions.Configuration.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Extensions.Options.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Identity.Client.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Rest.ClientRuntime.Azure.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Newtonsoft.Json.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\System.Buffers.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\System.Memory.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\System.Numerics.Vectors.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\System.Text.Encodings.Web.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\System.Text.Json.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\System.ValueTuple.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Azure.Core.xml
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Azure.Identity.xml
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Azure.Security.KeyVault.Keys.xml
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Azure.Security.KeyVault.Secrets.xml
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Azure.Storage.Blobs.xml
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Azure.Storage.Common.xml
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Azure.Storage.Files.Shares.xml
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Azure.Storage.Queues.xml
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\EntityFramework.xml
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Azure.KeyVault.xml
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Azure.KeyVault.WebKey.xml
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Azure.Services.AppAuthentication.xml
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Configuration.ConfigurationBuilders.Azure.xml
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Configuration.ConfigurationBuilders.Base.xml
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.xml
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Extensions.Azure.xml
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Extensions.Configuration.xml
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Extensions.Options.xml
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Identity.Client.xml
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.xml
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Rest.ClientRuntime.xml
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.Rest.ClientRuntime.Azure.xml
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Newtonsoft.Json.xml
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\System.Buffers.xml
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\System.Memory.xml
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\System.Numerics.Vectors.xml
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\System.Text.Encodings.Web.xml
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\System.Text.Json.xml
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\System.ValueTuple.xml
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\obj\Release\CloudScraps.csprojAssemblyReference.cache
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\obj\Release\CloudScraps.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\obj\Release\CloudScraps.csproj.CopyComplete
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\obj\Release\CloudScraps.dll
+C:\Users\User\Desktop\NWU\2021\Sem 2\CMPG323\Project 2\CloudScraps\Project\CloudScraps\CloudScraps\obj\Release\CloudScraps.pdb

@@ -51,15 +51,6 @@ namespace CloudScraps.Pages
         protected global::System.Web.UI.WebControls.LinkButton LBNHome;
 
         /// <summary>
-        /// Panel1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel1;
-
-        /// <summary>
         /// LBLName control.
         /// </summary>
         /// <remarks>
@@ -78,31 +69,13 @@ namespace CloudScraps.Pages
         protected global::System.Web.UI.WebControls.Label LBLSurname;
 
         /// <summary>
-        /// DDUploadMenu control.
+        /// Panel1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DDUploadMenu;
-
-        /// <summary>
-        /// DDAlbumsManage control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DDAlbumsManage;
-
-        /// <summary>
-        /// DDAccountSettings control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DDAccountSettings;
+        protected global::System.Web.UI.WebControls.Panel Panel1;
 
         /// <summary>
         /// PNLProfile control.
